@@ -6,7 +6,7 @@
       "schematics": {},
       "root": "apps/angular-dashboard",
       "sourceRoot": "apps/angular-dashboard/src",
-      "prefix": "angular-dashboard",
+      "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -127,7 +127,7 @@
       "projectType": "library",
       "root": "libs/material",
       "sourceRoot": "libs/material/src",
-      "prefix": "angular-dashboard",
+      "prefix": "lib",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
@@ -150,6 +150,34 @@
         }
       },
       "schematics": {}
+    },
+    "some-service": {
+      "projectType": "library",
+      "root": "libs/some-service",
+      "sourceRoot": "libs/some-service/src",
+      "prefix": "app",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/some-service/tsconfig.lib.json",
+              "libs/some-service/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/some-service/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/some-service/jest.config.js",
+            "tsConfig": "libs/some-service/tsconfig.spec.json",
+            "passWithNoTests": true,
+            "setupFile": "libs/some-service/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {}
     }
   },
   "cli": {
@@ -163,6 +191,9 @@
     },
     "@nrwl/angular:library": {
       "unitTestRunner": "jest"
+    },
+    "@nrwl/schematics:component": {
+      "styleext": "css"
     }
   },
   "defaultProject": "angular-dashboard"

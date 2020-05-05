@@ -5,6 +5,7 @@
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
@@ -16,7 +17,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-dashboard/material": ["libs/material/src/index.ts"]
+      "@angular-dashboard/material": ["libs/material/src/index.ts"],
+      "@app/some-service": ["libs/some-service/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

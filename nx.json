@@ -1,5 +1,5 @@
 {
-  "npmScope": "angular-dashboard",
+  "npmScope": "app",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {
@@ -27,6 +27,9 @@
       "implicitDependencies": ["angular-dashboard"]
     },
     "material": {
+      "tags": []
+    },
+    "some-service": {
       "tags": []
     }
   }
