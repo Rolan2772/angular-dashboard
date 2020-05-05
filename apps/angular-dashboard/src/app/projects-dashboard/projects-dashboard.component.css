@@ -1,0 +1,13 @@
+.project-card {
+  margin-bottom: 10px;
+}
+
+.blink_me {
+  animation: blinker 1.3s linear 1;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

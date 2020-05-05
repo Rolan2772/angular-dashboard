@@ -1,6 +1,7 @@
 <div>
-  <mat-toolbar color="primary"> </mat-toolbar>
-  <div>
-    {{ hello }}
-  </div>
+  <mat-toolbar color="primary" class="version-component">
+    <span>Angular Dashboard v{{ version }}</span>
+  </mat-toolbar>
 </div>
+
+<router-outlet></router-outlet>
