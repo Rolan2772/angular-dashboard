@@ -17,7 +17,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-dashboard/material": ["libs/material/src/index.ts"]
+      "@angular-dashboard/material": ["libs/material/src/index.ts"],
+      "@angular-dashboard/data": ["libs/data/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,0 +1,22 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      <h1>
+        Projects (
+        <span
+          [ngClass]="{
+            blink_me: this.count > 0
+          }"
+        >
+          {{ this.count }}
+        </span>
+        )
+      </h1>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-card class="project-card" *ngFor="let project of projects$ | async">
+      {{ project.name }}
+    </mat-card>
+  </mat-card-content>
+</mat-card>
