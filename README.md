@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/Rolan2772/angular-dashboard/branch/master/graph/badge.svg)](https://codecov.io/gh/Rolan2772/angular-dashboard)
 [![BCH compliance](https://bettercodehub.com/edge/badge/Rolan2772/angular-dashboard?branch=master)](https://bettercodehub.com/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/89d441256ea4459ea22cfaf7a656fcd6)](https://app.codacy.com/app/rolan.burykin/angular-dashboard?utm_source=github.com&utm_medium=referral&utm_content=Rolan2772/angular-dashboard&utm_campaign=Badge_Grade_Dashboard)
-[![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://dashboard.cypress.io/#/projects/rh1vmj/runs)
+[![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://dashboard.cypress.io/#/projects/24tbxt/runs)
 
 
 # AngularDashboard
