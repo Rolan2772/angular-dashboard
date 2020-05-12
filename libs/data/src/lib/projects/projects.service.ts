@@ -15,8 +15,7 @@ export class ProjectsService {
 
   all() {
     return this.httpClient.get<ProjectsReponse>(BASE_URL).pipe(
-      flatMap(response => of(response.items)),
-      share()
+      flatMap(response => of(response.items))
     );
   }
 }
