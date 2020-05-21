@@ -16,7 +16,10 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(
-      [{ path: '', component: ProjectsDashboardComponent }],
+      [
+        { path: '', component: ProjectsDashboardComponent },
+        { path: '**', redirectTo: '', pathMatch: 'full' }
+      ],
       { initialNavigation: 'enabled' }
     ),
     HttpClientModule,
