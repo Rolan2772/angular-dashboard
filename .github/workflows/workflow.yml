@@ -23,7 +23,11 @@ jobs:
         npm install
         ng test --no-watch --code-coverage
         ng e2e
+<<<<<<< HEAD
         ng build --prod --output-path docs --base-href /angular-dashboard/
+=======
+        ng build --prod --output-path docs
+>>>>>>> 4a4471443df0822a54d7c3132b5430c369e9d81f
 
     - name: Codecov
       uses: codecov/codecov-action@v1

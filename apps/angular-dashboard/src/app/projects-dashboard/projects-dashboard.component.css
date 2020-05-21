@@ -11,3 +11,9 @@
     opacity: 0;
   }
 }
+
+.author-desc {
+display: flex;
+justify-content: space-between;
+}
+
