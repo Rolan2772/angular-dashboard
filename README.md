@@ -7,10 +7,10 @@
 
 # Angular dashboard
 
-Angular application demonstrating interactive search & view logic of github projects. 
+Angular based web app visualizing [GitHub](https://github.com) projects as a dashboard. Code quality being analyzed using [Codacy](https://www.codacy.com/) and [Better Code Hub](https://bettercodehub.com/) tools. Test coverage implemented usigng various types of tests and [Cypres](https://www.cypress.io/) as an e2e test provider.
 
 # Deployments
 
 [GitHub Actions](https://github.com/features/actions) being used to build & deploy application to several colud providers:
-* first [environment](https://rolan2772.github.io/angular-dashboard/) uses [GitHub Pages](https://pages.github.com/) 
-* second [environment](https://zealous-cliff-094dac203.azurestaticapps.net/) uses [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/)
+* [github-env](https://rolan2772.github.io/angular-dashboard/) uses [GitHub Pages](https://pages.github.com/) 
+* [azure-env](https://zealous-cliff-094dac203.azurestaticapps.net/) uses [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/)
